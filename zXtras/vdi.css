@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "gill sans", arial, sans-serif;
+  font-weight: 400;
+  background: url(VDI_Background.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(0,88,38);
+  min-width: 560px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo_head {
+  float: left;
+  width: 200px;
+  margin-left: -85px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 20px;
+  position: relative;
+}
+
+nav a {
+  color: rgb(250,166,26);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: rgb(254,207,141);
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: rgb(250,166,26);
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+object {
+  margin-top: -40px;
+  position: center;
+}
+
+.body {
+  
+  max-width: 50%;
+  margin-bottom: 30px;
+  margin-right: 8%;
+  height: auto;
+  color: rgb(50,50,50);
+  background: rgba(230,230,230,.6);
+  padding: 2px 20px;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 6px 6px 15px rgb(50,50,50);
+  font-family: "gill sans", arial, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  transition: .5s;
+}
+
+.body:hover {
+  background-color: rgb(214,228,218);
+}
+
+/*/*#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+/*}
+#footer {
+  background: rgb(0,88,38);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}*/
+*/*/

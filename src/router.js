@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import RestaurantsIndex from './views/RestaurantsIndex.vue'
+// import RestaurantsShow from './views/RestaurantsShow.vue'
 
 Vue.use(Router)
 
@@ -13,6 +15,16 @@ export default new Router({
       name: 'home',
       component: Home
     },
+    {
+      path: '/restaurants',
+      name: 'restaurants',
+      component: RestaurantsIndex 
+    },
+    // {
+    //   path: '/restaurants/:id',
+    //   name: 'restaurants-show',
+    //   component: RestaurantsShow
+    // },
     {
       path: '/about',
       name: 'about',
