@@ -9,18 +9,20 @@
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-upper">Bon appétit!</span>
-                  <span class="section-heading-lower">Here is the list of vegan establishments in the city of your choice:</span>
+                  <span class="section-heading-lower">Here is a list of twenty-five vegan establishments<br>in the area of your choosing:</span>
                 </h2>
                 <div v-for="restaurant in restaurants">
-                  <h1>{{ restaurant.name }}</h1>
-                  <h1>{{ restaurant.location.address1 }}</h1>
-                  <h1>{{ restaurant.location.city + ", " + restaurant.location.state + " " + restaurant.location.zip_code }}</h1>
-                  <h1>{{ restaurant.display_phone }}</h1>
-                  <h1>{{ restaurant.url }}</h1>
+                  <h4>{{ restaurant.name }}</h4>
+                  <h5>{{ restaurant.location.address1 }}</h5>
+                  <h5>{{ restaurant.location.city + ", " + restaurant.location.state + " " + restaurant.location.zip_code }}</h5>
+                  <h5>{{ restaurant.display_phone }}</h5>
+                    <a v-bind:href="restaurant.url">Visit yelp.com for hours, driving directions, and business website!</a>
+                  <hr>
+                  <h1></h1>
                 </div>
-                <p></p>
+                <h1></h1>
                 <h3>CHANGING LOCATIONS?</h3>
-                <p>SEARCH AGAIN IN THE AREA OF YOUR CHOOSING.</p>
+                <p>SEARCH AGAIN FOR RESULTS IN A DIFFERENT LOCALE.</p>
                 <form action="/restaurants" method="get">
                   <input type="text" name="city" placeholder="Enter a City, ST">
                   <input type="submit" value="Click for MORE Restaurants!">

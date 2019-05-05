@@ -68,7 +68,7 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -247,17 +247,6 @@ input {
   }
 }
 
-@media (min-width: 992px) {
-  .list-hours {
-    width: 50%;
-    font-size: 1.1rem;
-  }
-}
-
-.address strong {
-  font-size: 1.2rem;
-}
-
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
 }
@@ -306,6 +295,7 @@ object {
 
 ::placeholder {
   color: rgb(200,200,200);
+  position: center;
 }
 
 h3 {

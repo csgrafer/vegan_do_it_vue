@@ -20,7 +20,7 @@
               <a class="nav-link text-uppercase text-expanded" href="/restaurants">Restaurants</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="/vegan">Why Eat Vegan?</a>
+              <a class="nav-link text-uppercase text-expanded" href="/vegan">About Veganism</a>
             </li>
           </ul>
         </div>
