@@ -1,64 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Why Eat Vegan?</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/business-casual.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- <h1 class="site-heading text-center text-white d-none d-lg-block">
-    <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-    <span class="site-heading-lower">Business Casual</span>
-  </h1> -->
-
-  <object type="image/svg+xml" data="img/VDI_Main.svg"></object>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Why Eat Vegan?</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="restaurants.html">Restaurants</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="vegan.html">About Veganism</a>
-          </li>
-          <!-- <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
-<!-- 
+<template>
+  
   <section class="page-section">
     <div class="container">
       <div class="product-item">
@@ -78,9 +19,10 @@
         </div>
       </div>
     </div>
-  </section>
+  <!-- </section>
 
-  <section class="page-section">
+  <section class="page-section"> -->
+    <p><br><br></p>
     <div class="container">
       <div class="product-item">
         <div class="product-item-title d-flex">
@@ -103,9 +45,10 @@
         </div>
       </div>
     </div>
-  </section>
+  <!-- </section>
 
-  <section class="page-section">
+  <section class="page-section"> -->
+    <p><br><br></p>
     <div class="container">
       <div class="product-item">
         <div class="product-item-title d-flex">
@@ -125,29 +68,14 @@
             <p></p>
             <p><strong>Foods That Vegans Will not Eat:</strong> Vegans avoid eating meat, chicken, fish, shellfish, eggs, dairy and honey, as well as any other products containing ingredients derived from animals.</p>
             <p> </p>
-            <p> </p>
             <p>Info provided courtesy of the <em>healthline nutrition newsletter.</em></p>
           </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
+</template>
 
-  <div id="app"></div>
-
-  <footer class="footer text-faded text-center py-5">
-    <div class="container">
-      <p class="m-0 small">&copy;2019 C. Sean Play</p>
-    </div>
-    <div class="logo_head">
-      <img src="img/VDI_Main.svg" alt="logo" class="logo">
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+<script>
+  var axios = require("axios");
+</script>
