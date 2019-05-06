@@ -7,21 +7,18 @@
           <div class="bg-faded p-5 d-flex ml-auto rounded">
             <h2 class="section-heading mb-0">
               <span class="section-heading-upper">What Is a Vegan?</span>
-              <span class="section-heading-lower">Read on for a bit of history.</span>
+              <span class="section-heading-lower">Read on for a bit of history, and other<br> information about veganism.</span>
             </h2>
           </div>
         </div>
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/family.jpg" alt="">
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">The term <strong><em>"vegan"</em></strong> was coined in 1944 by a small group of vegetarians who broke away from the Leicester Vegetarian Society to form the Vegan Society. These people chose not to consume dairy, eggs or any other products of animal origin, in addition to not eating meat like the vegetarians. Therefore, they felt the need to form a society that better represented their views. The term vegan was chosen by combining the first and last letters of the word vegetarian. Veganism was originally defined as "the principle of emancipation of animals from exploitation by man." In 1979, the Vegan Society became a registered charity and updated that definition. Veganism is currently defined as a way of living that attempts to exclude all forms of animal exploitation and cruelty, be it for food, clothing or any other purpose.</p>
+            <p class="mb-0">The term <strong><em>"vegan"</em></strong> was coined in 1944 by a small group of vegetarians who broke away from the Leicester Vegetarian Society to form the Vegan Society. These people chose not to consume dairy, eggs or any other products of animal origin, in addition to not eating meat like the vegetarians. Therefore, they felt the need to form a society that better represented their views. The term vegan was chosen by combining the first and last letters of the word vegetarian. Veganism was originally defined as "the principle of emancipation of animals from exploitation by man." In 1979, the Vegan Society became a registered charity and updated that definition. Veganism is defined as a way of living that attempts to exclude all forms of animal exploitation and cruelty, be it for food, clothing or any other purpose.</p>
           </div>
         </div>
       </div>
     </div>
-  <!-- </section>
-
-  <section class="page-section"> -->
     <p><br><br></p>
     <div class="container">
       <div class="product-item">
@@ -29,7 +26,7 @@
           <div class="bg-faded p-5 d-flex mr-auto rounded">
             <h2 class="section-heading mb-0">
               <span class="section-heading-upper">Reasons Why People Decide to Eat This Way.</span>
-              <span class="section-heading-lower">Vegans generally choose to avoid consuming animal products for one or more of the following reasons:</span>
+              <span class="section-heading-lower">Vegans generally choose to avoid consuming animal products<br>for one or more of the following reasons:</span>
             </h2>
           </div>
         </div>
@@ -45,9 +42,6 @@
         </div>
       </div>
     </div>
-  <!-- </section>
-
-  <section class="page-section"> -->
     <p><br><br></p>
     <div class="container">
       <div class="product-item">

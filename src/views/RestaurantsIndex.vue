@@ -9,14 +9,15 @@
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-upper">Bon appétit!</span>
-                  <span class="section-heading-lower">Here is a list of twenty-five vegan establishments<br>in the area of your choosing:</span>
+                  <span class="section-heading-lower">Here is a list of twenty-five vegan establishments in the area of your choosing:</span>
                 </h2>
-                <div v-for="restaurant in restaurants">
+                <div class="yelp_data" v-for="restaurant in restaurants">
+                  <img v-bind:src="restaurant.image_url">
                   <h4>{{ restaurant.name }}</h4>
                   <h5>{{ restaurant.location.address1 }}</h5>
                   <h5>{{ restaurant.location.city + ", " + restaurant.location.state + " " + restaurant.location.zip_code }}</h5>
                   <h5>{{ restaurant.display_phone }}</h5>
-                    <a v-bind:href="restaurant.url">Visit yelp.com for hours, driving directions, and business website!</a>
+                    <a v-bind:href="restaurant.url">Visit yelp.com for more information!</a>
                   <hr>
                   <h1></h1>
                 </div>

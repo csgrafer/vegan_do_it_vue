@@ -31,10 +31,14 @@
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">&copy;2019 C. Sean Play</p>
+        <h2 class="m-0 small">&copy;2019 C. Sean Play</h2>
       </div>
       <div class="logo_head">
         <img src="img/VDI_Main.svg" alt="logo" class="logo">
+      </div>
+      <div class="yelp_logo">
+        <img src="img/yelp.svg" alt="logo" class="logo">
+        <!-- <a v-bind:href="www.yelp.com"></a> -->
       </div>
     </footer>
   </div>

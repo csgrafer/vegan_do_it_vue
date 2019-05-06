@@ -28,7 +28,7 @@
                 <span class="section-heading-upper">Why Eat Vegan?</span>
                 <span class="section-heading-lower">passion & compassion</span>
               </h2>
-              <p class="mb-0">There are many different reasons people choose to lead a vegan lifestyle. Go to the<br><a href="vegan.html"><strong>ABOUT VEGANISM</strong></a>
+              <p class="mb-0">There are many different reasons people choose to lead a vegan lifestyle. Go to the<br><a v-bind:href="/vegan/"><strong>ABOUT VEGANISM</strong></a>
               page for a little bit of the history, and reasoning behind veganism.</p>
             </div>
           </div>
