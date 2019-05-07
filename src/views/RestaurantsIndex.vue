@@ -9,7 +9,7 @@
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-upper">Bon appétit!</span>
-                  <span class="section-heading-lower">Here is a list of twenty-five vegan establishments in the area of your choosing:</span>
+                  <span class="section-heading-lower">Here is a list of several vegan establishments in the area you have chosen:</span>
                 </h2>
                 <div class="yelp_data" v-for="restaurant in restaurants">
                   <img v-bind:src="restaurant.image_url">
@@ -25,13 +25,12 @@
                 <h3>CHANGING LOCATIONS?</h3>
                 <p>SEARCH AGAIN FOR RESULTS IN A DIFFERENT LOCALE.</p>
                 <form action="/restaurants" method="get">
-                  <input type="text" name="city" placeholder="Enter a City, ST">
-                  <input type="submit" value="Click for MORE Restaurants!">
+                  <input type="text" name="city" placeholder="City, ST -or- Country"><input type="submit" value="Click for MORE Restaurants!"  id="submitText">
                 </form>
               </div>
             </div>
           </div>
-            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/vegan_joint.jpg" alt="">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/vegan_joint.png" alt="">
           </div>
       </div>
     </section>

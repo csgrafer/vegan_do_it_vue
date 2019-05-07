@@ -87,7 +87,8 @@ input {
 }
 .bg-faded:hover {
   background-color: rgb(255,255,255);
-  transition: 1s;
+  transition: all 2s;
+
 }
 
 #mainNav {
@@ -317,12 +318,12 @@ h3 {
 }
 
 .yelp_data a {
-  color: rgb(250,166,26);
+  color: rgb(95,152,118);
   text-shadow: .5px .5px 1px rgb(35,35,35);
 }
 
 .yelp_data a:hover {
-  color: rgb(0,88,38);
+  color: rgb(250,166,26);
 }
 
 .yelp_data h4 {
@@ -335,6 +336,20 @@ h3 {
   margin-right: 30px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgb(35,35,35);
+}
+
+form input {
+  margin-left: 15px;
+  box-shadow: 2px 2px 4px rgb(35,35,35);
+}
+
+#submitText {
+  color: rgb(95,152,118);
+  text-shadow: .5px .5px 1px rgb(35,35,35);
+}
+
+#submitText:hover {
+  color: rgb(250,166,26);
 }
 
 
