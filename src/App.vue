@@ -38,7 +38,7 @@
       </div>
       <div class="yelp_logo">
         <img src="img/yelp.svg" alt="logo" class="logo">
-        <!-- <a v-bind:href="www.yelp.com"></a> -->
+        
       </div>
     </footer>
   </div>

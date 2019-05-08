@@ -23,9 +23,9 @@
                 </div>
                 <h1></h1>
                 <h3>CHANGING LOCATIONS?</h3>
-                <p>SEARCH AGAIN FOR RESULTS IN A DIFFERENT LOCALE.</p>
+                <h6>SEARCH AGAIN FOR RESULTS IN A DIFFERENT LOCALE.</h6>
                 <form action="/restaurants" method="get">
-                  <input type="text" name="city" placeholder="City, ST -or- Country"><input type="submit" value="Click for MORE Restaurants!"  id="submitText">
+                  <input type="text" name="city" placeholder="- - - - City, State - - - –"><input type="submit" value="Click for MORE Restaurants!"  id="submitText">
                 </form>
               </div>
             </div>
