@@ -82,13 +82,13 @@ input {
 }
 
 .bg-faded {
-  background-color: rgb(227,236,230);
+  background-color: rgb(255,237,211);
   border-radius: 20px;
   box-shadow: 6px 6px 15px rgb(35,35,35);
 }
 .bg-faded:hover {
-  background-color: rgb(255,255,255);
-  transition: 2s;
+  background-color: rgb(214,228,218);
+  transition: 1.5s;
 }
 
 #mainNav {
@@ -191,14 +191,14 @@ input {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.7);
+  background-color: rgba(230, 167, 86, 0.6);
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgb(214,228,218);
 }
 
 .cta .cta-inner:before {
@@ -209,7 +209,7 @@ input {
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  border: 0.25rem solid rgb(214,228,218);
 }
 
 @media (min-width: 992px) {
@@ -309,7 +309,7 @@ h3 {
 
 .yelp_data a {
   color: rgb(95,152,118);
-  text-shadow: .5px .5px 1px rgb(35,35,35);
+  text-shadow: .3px .3px .6px rgb(35,35,35);
 }
 
 .yelp_data a:hover {
@@ -335,7 +335,7 @@ form input {
 
 #submitText {
   color: rgb(95,152,118);
-  text-shadow: .5px .5px 1px rgb(35,35,35);
+  text-shadow: .3px .3px .6px rgb(35,35,35);
 }
 
 #submitText:hover {
